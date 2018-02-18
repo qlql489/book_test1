@@ -1,14 +1,6 @@
 {
-    "plugins": ["atoc"],
-    "plugins": ["-lunr", "-search", "search-plus"],
-    "plugins": ["advanced-emoji"],
-    "plugins": ["-sharing", "sharing-plus"],
-    "plugins" : [ "anchor-navigation" ],
+    "plugins" : [ "anchor-navigation-ex" ,"-lunr", "-search", "search-plus","advanced-emoji","-sharing", "sharing-plus","copy-code-button"],
     "pluginsConfig": {
-        "atoc": {
-            "addClass": true,
-            "className": "atoc"
-        },
         "sharing": {
 	       "douban": false,
 	       "facebook": false,
@@ -32,6 +24,20 @@
 	           "weibo", "instapaper", "linkedin",
 	           "pocket", "stumbleupon"
 	       ]
-	   }
+	   },
+	   "anchor-navigation-ex": {
+	   		"showLevel": false,
+		    "associatedWithSummary": true,
+		    "printLog": true,
+		    "multipleH1": true,
+		    "mode": "float",
+		    "float": {
+		        "showLevelIcon": false,
+		        "level1Icon": "fa fa-hand-o-right",
+		        "level2Icon": "fa fa-hand-o-right",
+		        "level3Icon": "fa fa-hand-o-right"
+		    }
+		    
+        }
     }
 }
