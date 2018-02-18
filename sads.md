@@ -14,13 +14,7 @@ dawda dwa
 
 dasdawdwafawdasd
 
-ad
 
-sad
-
-ads
-
-# 
 
 
 
