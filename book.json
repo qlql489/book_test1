@@ -3,6 +3,7 @@
     "plugins": ["-lunr", "-search", "search-plus"],
     "plugins": ["advanced-emoji"],
     "plugins": ["-sharing", "sharing-plus"],
+    "plugins" : [ "anchor-navigation" ],
     "pluginsConfig": {
         "atoc": {
             "addClass": true,
