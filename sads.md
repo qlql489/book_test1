@@ -18,11 +18,9 @@ wadaw
 
 ### 
 
-dawda dwa 
+dawda dwa
 
 dasdawdwafawdasd
-
-
 
 ad
 
@@ -38,7 +36,7 @@ d
 
 ad
 
-### wadawdawd
+
 
 
 
