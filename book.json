@@ -1,5 +1,5 @@
 {
-    "plugins" : [ "anchor-navigation-ex" ,"-lunr", "-search", "search-plus","advanced-emoji","-sharing", "sharing-plus","copy-code-button","splitter","duoshuo"],
+    "plugins" : [ "anchor-navigation-ex" ,"-lunr", "-search", "search-plus","advanced-emoji","-sharing", "sharing-plus","copy-code-button","splitter","disqus"],
     "pluginsConfig": {
         "sharing": {
 	       "douban": false,
@@ -39,9 +39,8 @@
 		    
         },
        
-        "duoshuo": {
-            "short_name": "your duoshuo's shortname",
-            "theme": "default"
+       "disqus": {
+            "shortName": "XXXXXXX"
         }
 
     }
