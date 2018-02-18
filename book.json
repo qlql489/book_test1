@@ -1,17 +1,17 @@
 {
-    "plugins" : [ "anchor-navigation-ex" ,"-lunr", "-search", "search-plus","advanced-emoji","-sharing", "sharing-plus","copy-code-button"],
+    "plugins" : [ "anchor-navigation-ex" ,"-lunr", "-search", "search-plus","advanced-emoji","-sharing", "sharing-plus","copy-code-button","splitter","duoshuo"],
     "pluginsConfig": {
         "sharing": {
 	       "douban": false,
 	       "facebook": false,
-	       "google": true,
+	       "google": false,
 	       "hatenaBookmark": false,
 	       "instapaper": false,
-	       "line": true,
+	       "line": false,
 	       "linkedin": true,
 	       "messenger": false,
 	       "pocket": false,
-	       "qq": false,
+	       "qq": true,
 	       "qzone": true,
 	       "stumbleupon": false,
 	       "twitter": false,
@@ -20,9 +20,8 @@
 	       "weibo": true,
 	       "whatsapp": false,
 	       "all": [
-	           "facebook", "google", "twitter",
-	           "weibo", "instapaper", "linkedin",
-	           "pocket", "stumbleupon"
+	           "google", 
+	           "weibo","linkedin"
 	       ]
 	   },
 	   "anchor-navigation-ex": {
@@ -38,6 +37,12 @@
 		        "level3Icon": "fa fa-hand-o-right"
 		    }
 		    
+        },
+       
+        "duoshuo": {
+            "short_name": "your duoshuo's shortname",
+            "theme": "default"
         }
+
     }
 }
