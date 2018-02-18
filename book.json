@@ -1,0 +1,43 @@
+{
+    "plugins" : [ "anchor-navigation-ex" ,"-lunr", "-search", "search-plus","advanced-emoji","-sharing", "sharing-plus","copy-code-button"],
+    "pluginsConfig": {
+        "sharing": {
+	       "douban": false,
+	       "facebook": false,
+	       "google": true,
+	       "hatenaBookmark": false,
+	       "instapaper": false,
+	       "line": true,
+	       "linkedin": true,
+	       "messenger": false,
+	       "pocket": false,
+	       "qq": false,
+	       "qzone": true,
+	       "stumbleupon": false,
+	       "twitter": false,
+	       "viber": false,
+	       "vk": false,
+	       "weibo": true,
+	       "whatsapp": false,
+	       "all": [
+	           "facebook", "google", "twitter",
+	           "weibo", "instapaper", "linkedin",
+	           "pocket", "stumbleupon"
+	       ]
+	   },
+	   "anchor-navigation-ex": {
+	   		"showLevel": false,
+		    "associatedWithSummary": true,
+		    "printLog": true,
+		    "multipleH1": true,
+		    "mode": "float",
+		    "float": {
+		        "showLevelIcon": false,
+		        "level1Icon": "fa fa-hand-o-right",
+		        "level2Icon": "fa fa-hand-o-right",
+		        "level3Icon": "fa fa-hand-o-right"
+		    }
+		    
+        }
+    }
+}
